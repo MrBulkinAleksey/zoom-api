@@ -43,7 +43,8 @@ class ZoomAPI{
 	 * @param $apiKey
 	 * @param $apiSecret
 	 */
-	public function __construct( $apiKey, $apiSecret ) {
+	public function __construct( $apiKey, $apiSecret )
+	{
 
 		$this->apiKey = $apiKey;
 
@@ -56,7 +57,8 @@ class ZoomAPI{
 
 	/*Functions for management of users*/
 
-	public function createUser(){
+	public function createUser()
+	{
 		$createAUserArray['action'] = 'create';
 		$createAUserArray['email'] = $_POST['email'];
 		$createAUserArray['user_info'] = $_POST['user_info'];
@@ -64,5 +66,3 @@ class ZoomAPI{
 		return $this->users->create($createAUserArray);
 	}
 }
-
-?> 
