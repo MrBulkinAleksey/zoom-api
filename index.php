@@ -6,4 +6,3 @@ $zoom = new \Zoom\ZoomAPI('AAAAA', 'BBBBB');
 
 var_dump($zoom->createUser() );
 exit();
-
