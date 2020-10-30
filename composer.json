@@ -1,7 +1,6 @@
 {
     "name": "zoom/zoom",
     "description": "Api Zoom",
-    "minimum-stability": "beta",
     "require": {
         "guzzlehttp/guzzle": "~6.0",
         "firebase/php-jwt": "^5.0"
